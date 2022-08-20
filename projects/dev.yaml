@@ -58,8 +58,8 @@ spec:
         targetRevision: 'main'
         helm:
           valueFiles:
-            - '../envs/values-dev.yaml'
             - '../chart/values.yaml'
+            - '../envs/values-dev.yaml'
       syncPolicy:
         automated:
           prune: true

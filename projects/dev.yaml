@@ -59,6 +59,7 @@ spec:
         helm:
           valueFiles:
             - '../envs/values-dev.yaml'
+            - '../chart/values.yaml'
       syncPolicy:
         automated:
           prune: true
